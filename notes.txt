@@ -1,0 +1,34 @@
+1. Tag -A tag is a snippet of code enclosed in angle brackets < > that specifies how content should be formatted or styled
+
+2. Element - An element consists of a pair of tags (an opening tag and a closing tag), along with the content that falls between them.
+
+3. Attribute - An attribute is a modifier that provides additional information about an HTML element. Attributes are specified within the opening tag of an element and consist of a name and a value, separated by an equals sign (=).
+
+4. Block Level Element - A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+   A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+
+5. Inline Elements - An inline element does not start on a new line. An inline element only takes up as much width as necessary. This is a <span> element inside a paragraph.
+
+6. Semantic Element - A semantic element clearly describes its meaning to both the browser and the developer. 
+Examples of non-semantic elements: 
+    <div>
+    <span> - Tells nothing about its content. 
+Examples of semantic elements: 
+    <form>, 
+    <table>,
+    <article>
+    <aside>
+    <details>
+    <figcaption>
+    <figure>
+    <footer>
+    <header>
+    <article> - Clearly defines its content.
+
+7. HTML Entities - HTML entities start with an ampersand (&) and end with a semicolon (;). They can be represented in two main ways:
+    - Named Entities (&lt;)
+    - Numeric Entities (&#169;)
+
+8. <div> (Division) - The <div> element is a block-level element that is used to create divisions or sections within an HTML document.
+
+9. <span> - The <span> element is an inline-level element that is used to apply styles or markup to a specific portion of text within a larger block of content.
