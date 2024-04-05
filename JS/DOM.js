@@ -1,0 +1,3 @@
+const handleload = () => {
+    alert("LOADED")
+}

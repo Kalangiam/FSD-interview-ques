@@ -1,0 +1,124 @@
+1. what are arrays? 
+    
+        In JavaScript, arrays and objects are both fundamental data structures used to store collections of data, but they serve different purposes.
+
+    Arrays:
+
+    Arrays are ordered collections of values.
+    Elements in an array are indexed starting from 0 and can be accessed by their index.
+    They can hold values of any data type, including other arrays or objects.
+    Arrays in JavaScript are dynamic, meaning their size can change dynamically by adding or removing elements.
+    Common operations with arrays include accessing elements, adding elements, removing elements, iterating through elements, and performing various transformations and manipulations.
+
+    Objects:
+
+    Objects are collections of key-value pairs, where each key is a unique string (or symbol) that maps to a value.
+    They are sometimes referred to as dictionaries or associative arrays in other programming languages.
+    Objects can hold values of any data type, including other objects, arrays, functions, and primitive types.
+    Objects in JavaScript are unordered, meaning the order of properties is not guaranteed.
+    Properties can be added, modified, or deleted from an object dynamically.
+
+
+
+2. string methods
+
+    => length()
+    => toUpperCase(), toLowerCase()
+    => charAt()
+    => substring()
+    => split()
+    => indexOf()
+    => replace()
+    => trim()
+
+3. Array Methods:
+  
+    1.Push(): this methods add one or more element to end of an array.
+    
+    2.Pop(): this methods remove the last element from an array.
+    
+    3.Unshift(): this method add one or more element to the begining of an array. // added to the front
+    
+    4.Shift(): this method removes the first element from an array.
+
+    5.concat(): add two arrays
+
+    6.slice(): Returns a shallow copy of a portion of an array into a new array selected from start to end (end not included).
+
+    7.splice(): Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
+
+4. copy by value    
+    Copy by value:
+
+    Primitive data types such as numbers, strings, and booleans are copied by value.
+    When a primitive value is assigned to another variable or passed as a function argument, a copy of the actual value is made. Modifying the copied value does not affect the original value.
+
+    Copy by reference:
+
+    Non-primitive data types such as objects and arrays are copied by reference.
+    When an object or array is assigned to another variable or passed as a function argument, a reference to the original object or array is passed, not a copy of its value. Modifying the copied reference affects the original data.
+
+5. functions
+    - Named function
+    - Anonymous function
+    - IIFE (immediately invoked function execution)
+    - arrow function
+    - higher order function (map,filter, reduce, sort,find,forEach)
+
+
+6. What is DOM ?
+    
+    DOM stands for Document Object Model. It's a programming interface for web documents. When a web page is loaded, the browser creates a Document Object Model of the page, which is a tree-like structure that represents all the elements and their attributes in the HTML document. Each element in the HTML document becomes a node in the DOM tree.  
+
+    DOM Accesssing - getElementbyID, getElementsbyClassName, getElementsbyTagName
+    DOM manipulations - CreateElement , setAttribute, innerHTML, textContent(Modifying), innertext,appendChild
+
+
+    querySelector is a method in JavaScript that allows you to select and retrieve the first HTML element from the DOM (Document Object Model) that matches a specified CSS selector.
+    querySelectorAll - selects all (forEach, for loop)
+
+    addEventListener - example var button = document.createElement('button');
+    button.innerHTML = "click here";
+    button.setAttribute('id','button');
+    const handleclick =() =>{
+        alert("clicked")
+    }
+
+
+    button.addEventListener('click',handleclick)
+
+
+    document.body.appendChild(button)
+
+
+//spread operator
+var arr = "hi";
+var res = [...arr];
+console.log(res);
+
+var a = ["tamil","english"]
+var b = ["b54"];
+var c = [...a,...b];
+console.log(c);
+
+var array = ["guvi"];
+console.log(...array);
+
+const numbers = [1, 2, 3];
+console.log(sum(...numbers)); //
+
+const num = [1,2,3];
+console.log(...num)
+
+//rest operator
+function myFunction(a,b,c,...args) {
+    console.log(args);
+}
+
+myFunction(3, 4,1,2,3,45,);
+
+
+function sum(x, y, z) {
+    return x + y + z;
+}
+
