@@ -1,0 +1,67 @@
+1. what are the primitives and non-primitive Data types we have?
+2. can you explain me how a javascript code exexutes? how does the compiler executes? how it contacts? how does it work?
+3. what is the differnece between let and const ?
+4. what is the difference between callback and callBack hell?
+5. what are promises?
+6. what are the different states in promises?
+7. what is promise.all does?
+8. what is async await?
+9. can you tell me what is the differnece between async/await and promises?
+10.can you tell me what is the differenece between splice and slice?
+11.which method return a new modified array?
+12.how does the reduce method work?
+13.what are the higher order functions?
+14.what is DOM?
+15.How do you create a dynamic element?
+16.what is get elementbyID and query selector?
+17.what is the difference between a tag and the attribute?
+18.can you tell you what is semantics element?
+19.what is the difference between div and span tag?
+20.what are the inline tags we have?
+21.how do you convert an inline level element into a block-level element?
+22.what is CSS box model?
+23.What is Pesudo Class?
+24.what is media queries?
+
+
+//
+
+HTML:
+
+1.What is HTML and what is its purpose in web development?
+2.What are the new features introduced in HTML5?
+3.Explain the difference between HTML elements and tags.
+4.What are semantic elements in HTML5? Give examples.
+5.What is the purpose of the "alt" attribute in HTML?
+6.What is the difference between HTML and XHTML?
+7.Explain the importance of DOCTYPE in HTML.
+8.How can you embed audio and video in HTML?
+9.What is the difference between <div> and <span> in HTML?
+10.How do you create a hyperlink in HTML?
+
+
+CSS:
+
+1.What is CSS and what is its role in web development?
+2.Explain the difference between inline, internal, and external CSS.
+3.What are CSS selectors? Provide examples.
+4.What is the box model in CSS? Explain its components.
+5.How can you center an element horizontally and vertically in CSS?
+6.What is the difference between "display: none" and "visibility: hidden" in CSS?
+7.How do you add comments in CSS?
+8.What are CSS preprocessors? Name a few.
+9.Explain the difference between margin and padding in CSS.
+10.What is a CSS framework? Provide examples.
+
+JavaScript:
+
+1.What is JavaScript and what is its role in web development?
+2.Explain the difference between == and === in JavaScript.
+3.What is the difference between let, var, and const in JavaScript?
+4.What is the DOM (Document Object Model) in JavaScript?
+5.How do you create an array in JavaScript?
+6.Explain the difference between synchronous and asynchronous programming in JavaScript.
+7.What are closures in JavaScript? Provide an example.
+8.What is the difference between null and undefined in JavaScript?
+9.Explain event bubbling and event capturing in JavaScript.
+10.How do you handle errors in JavaScript?
